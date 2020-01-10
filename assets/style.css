@@ -1,0 +1,171 @@
+.hm-gradient {
+    background: linear-gradient(40deg, rgba(119, 0, 199, 0.3), rgba(195, 125, 241, 0.3));
+  }
+  .heading {
+    margin: 0 6rem;
+    font-weight: 700;
+    color: #fa7f60;
+  }
+  .subheading {
+    margin: 2.5rem 6rem;
+    color: #bcb2c0;
+  }
+  .btn.btn-margin {
+    margin-left: 6rem;
+    margin-top: 3rem;
+  }
+  .btn.btn-lily {
+    background: linear-gradient(40deg, rgba(0,51,199,.7), rgba(209,149,249,.7));
+  }
+  /* .btn:hover{
+color: yellow;
+  } */
+  .title {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    color: #ab66c4;
+  }
+  .subtitle {
+    color: #bcb2c0;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 6rem;
+  }
+
+  /*  */
+  /* Required for full background image */
+
+  html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
+
+@media (max-width: 740px) {
+html,
+body,
+header,
+.view {
+height: 1100px;
+}
+}
+@media (min-width: 800px) and (max-width: 850px) {
+html,
+body,
+header,
+.view {
+height: 700px;
+}
+}
+
+
+
+.top-nav-collapse {
+/* background-color: #ffb056 !important; */
+opacity: 0.8;
+
+}
+
+.navbar:not(.top-nav-collapse) {
+background: transparent !important;
+}
+
+@media (max-width: 991px) {
+.navbar:not(.top-nav-collapse) {
+background: #904dbd !important;
+}
+}
+
+h6 {
+line-height: 1.7;
+}
+
+/*  */
+@media (max-width: 991px) {
+    #projects {
+        margin-top: 150px;
+    }
+}
+
+/*  */
+
+
+html {
+  scroll-behavior: smooth;
+};
+
+/*  */
+
+.carousel {
+    width:640px;
+    height:360px;
+  }
+
+/*  */
+
+a{
+  cursor: pointer;
+}
+
+.fa:hover{
+ color: burlywood ;
+ cursor: pointer;
+};
+
+/* card */
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Carousel images */
+
+#trova-logo{
+  background: #e0ffa5;
+}
+
+#hamJars-logo{
+  background: #f9eba4;
+}
+
+/* .view-jarallax{
+  background-image: linear-gradient(-90deg, rgb(231, 104, 0), rgb(255, 188, 100));
+
+} */
+
+.page-footer {
+  background-image: linear-gradient(-90deg, rgb(231, 104, 0), rgb(255, 188, 100));
+}
+
+
+
